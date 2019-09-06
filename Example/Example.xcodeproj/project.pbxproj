@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		2D44458523224C8F00990C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D44458323224C8F00990C71 /* Main.storyboard */; };
 		2D44458723224C8F00990C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D44458623224C8F00990C71 /* Assets.xcassets */; };
 		2D44458A23224C8F00990C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D44458823224C8F00990C71 /* LaunchScreen.storyboard */; };
+		2DC16B6023224EED00FD12EC /* Flare.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2DC16B5F23224EED00FD12EC /* Flare.podspec */; };
 		567C7801C26ED80B2E714DF1 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312111913BD76FECF13567BB /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		2D44458623224C8F00990C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D44458923224C8F00990C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D44458B23224C8F00990C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC16B5F23224EED00FD12EC /* Flare.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Flare.podspec; path = ../Flare.podspec; sourceTree = "<group>"; };
 		312111913BD76FECF13567BB /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D16552689453F061767E697 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +45,7 @@
 		2D44457323224C8F00990C71 = {
 			isa = PBXGroup;
 			children = (
+				2DC16B5F23224EED00FD12EC /* Flare.podspec */,
 				2D44457E23224C8F00990C71 /* Example */,
 				2D44457D23224C8F00990C71 /* Products */,
 				BFE5D32E403CD6C1ABA283D2 /* Pods */,
@@ -77,7 +80,6 @@
 				0F8F02F66DEF4465850FF765 /* Pods-Example.debug.xcconfig */,
 				3D16552689453F061767E697 /* Pods-Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +154,7 @@
 				2D44458A23224C8F00990C71 /* LaunchScreen.storyboard in Resources */,
 				2D44458723224C8F00990C71 /* Assets.xcassets in Resources */,
 				2D44458523224C8F00990C71 /* Main.storyboard in Resources */,
+				2DC16B6023224EED00FD12EC /* Flare.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
