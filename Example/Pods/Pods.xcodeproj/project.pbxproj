@@ -30,6 +30,7 @@
 		2A620BB8E3D6CAD5DBB3D3A3473D0611 /* MoyaProvider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD897715307EAA486F94CF0CFB65B60 /* MoyaProvider+Internal.swift */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7480887F933EA2814DF5F864E52F038 /* SessionDelegate.swift */; };
 		2CBD2C9DB4DC463F0624052415C28FCD /* Moya+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B53C76A3AD044AEFE1D3B3F4DE91E4 /* Moya+Alamofire.swift */; };
+		2D9DB054235ED9F900A014EC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DB053235ED9F900A014EC /* UIView+Extension.swift */; };
 		33104F4FFE0E80354AA98BA970AEBCAF /* EnumType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160915DDA2EC47DD1788356648ED4908 /* EnumType.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445729FD8BC0470A4D50EAB2DD51E68 /* NetworkReachabilityManager.swift */; };
 		38305D9F0673008A5D9B9CF0015ECCF4 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3ED0B5FB8ADAAD2E6AD98EA341D96 /* UIColor+Hue.swift */; };
@@ -232,6 +233,7 @@
 		275F1E8FD3B2D04F46CD27A6FE4F830C /* HandyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HandyJSON-Info.plist"; sourceTree = "<group>"; };
 		294537BAA9CAB3B3FB12710B49FA4B8A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		2B11480B9BC4B83B6DFBB0E011BC383D /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = "<group>"; };
+		2D9DB053235ED9F900A014EC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		314F01C2793E89B6F7F313759C130B37 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Source/Metadata.swift; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		35B13156F6492EF2F9D4DC6976C42FCC /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
@@ -645,6 +647,7 @@
 				E6CDB077427D4AA381B41C0DDA98FAD4 /* UICollectionView+Reuse.swift */,
 				AE942F5E9817004C38002D38E065830E /* UILabel+Extension.swift */,
 				BF0B6B3E4F0B4A5337CAB0DB0912EE74 /* UITableView+Reuse.swift */,
+				2D9DB053235ED9F900A014EC /* UIView+Extension.swift */,
 			);
 			name = UI;
 			path = Flare/UI;
@@ -1126,6 +1129,7 @@
 				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
 				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
 				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				2D9DB054235ED9F900A014EC /* UIView+Extension.swift in Sources */,
 				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
 				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
 				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
