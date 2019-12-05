@@ -9,7 +9,7 @@
 import Foundation
 import Hue
 
-extension StringProtocol {
+public extension StringProtocol {
     func nsRange(from range: Range<Index>) -> NSRange {
         return .init(range, in: self)
     }
