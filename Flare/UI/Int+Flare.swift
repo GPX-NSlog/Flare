@@ -1,5 +1,5 @@
 //
-//  Int+Extension.swift
+//  Int+Flare.swift
 //  Echange
 //
 //  Created by 九洲互通 on 2019/8/6.

@@ -1,5 +1,5 @@
 //
-//  UIView+Extension.swift
+//  UIView+Flare.swift
 //  Alamofire
 //
 //  Created by 九洲互通 on 2019/10/22.

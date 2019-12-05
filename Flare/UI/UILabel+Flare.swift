@@ -1,5 +1,5 @@
 //
-//  UILabel+Extension.swift
+//  UILabel+Flare.swift
 //  FunRunning
 //
 //  Created by 羊小白丶 on 2019/6/30.
