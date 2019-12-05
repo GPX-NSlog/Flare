@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Flare'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'Some swift extension for myself.'
   s.homepage         = 'https://github.com/GPX-NSlog/Flare'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
