@@ -26,3 +26,9 @@ public extension String {
         return attrString
     }
 }
+
+extension StringProtocol {
+    func nsRange(from range: Range<Index>) -> NSRange {
+        return .init(range, in: self)
+    }
+}

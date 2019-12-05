@@ -17,4 +17,28 @@ public extension UIView {
             layer.cornerRadius = abs(CGFloat(Int(newValue * 100)) / 100)
         }
     }
+    
+    @IBInspectable var borderColor: UIColor? {
+        get {
+            guard let color = layer.borderColor else { return nil }
+            return UIColor(cgColor: color)
+        }
+        set {
+            guard let color = newValue else {
+                layer.borderColor = nil
+                return
+            }
+            guard String(describing: type(of: color)) != "__NSCFType" else { return }
+            layer.borderColor = color.cgColor
+        }
+    }
+
+    @IBInspectable var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
 }
