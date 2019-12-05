@@ -9,6 +9,12 @@
 import Foundation
 import Hue
 
+extension StringProtocol {
+    func nsRange(from range: Range<Index>) -> NSRange {
+        return .init(range, in: self)
+    }
+}
+
 public extension String {
     var hexColor: UIColor {
         return UIColor(hex: self)
@@ -24,11 +30,5 @@ public extension String {
         attrString.addAttributes(attrs, range: self.nsRange(from: range))
         
         return attrString
-    }
-}
-
-extension StringProtocol {
-    func nsRange(from range: Range<Index>) -> NSRange {
-        return .init(range, in: self)
     }
 }
